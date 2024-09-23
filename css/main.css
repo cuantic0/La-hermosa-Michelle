@@ -40,16 +40,21 @@ body {
 
 }
 .titulo {
-  margin-bottom: 180px;
+  margin-bottom: 80px; /* Ajusta la distancia del fondo */
   font-family: "Arial Narrow", Arial, sans-serif;
   color: yellow;
   position: absolute;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 2px; /* Reduce el espaciado */
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  font-size: 24px; /* Tamaño de fuente más pequeño */
+  background: rgba(255, 255, 0, 0.2); /* Fondo ligero y notorio */
+  padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+  border-radius: 5px; /* Esquinas redondeadas para un mejor aspecto */
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
